@@ -1,11 +1,14 @@
 html {
   box-sizing: border-box;
-
-  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.robot-body {
+  position: absolute;
+  margin: 1rem;
 }
 
 body {
@@ -19,17 +22,4 @@ body {
 
 .robot {
   width: 320px;
-}
-
-.robot-body {
-  width: 320px;
-}
-
-.robot-brain {
-  width: 46px;
-}
-
-.robot-head-right,
-.robot-head-left {
-  width: 125px;
 }
