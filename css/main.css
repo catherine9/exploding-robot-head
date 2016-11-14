@@ -11,7 +11,7 @@ html {
   margin: 1rem;
   transform: translateX(50%);
   top: 0;
-  left: 0;
+  left: 10%;
 }
 
 body {
@@ -21,7 +21,8 @@ body {
 
 .banner {
   background-color: #2b3851;
-  display: block;
+  position: relative;
+  height: 202px;
 }
 
 .robot {
@@ -29,13 +30,29 @@ body {
 }
 
 .robot-head-left {
-  position: relative;
-  right: 40%;
-  bottom: 40%;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
 }
 
 .robot-head-right {
-  position: relative;
-  left: 40%;
-  bottom: 40%;
+  position: absolute;
+  transform: translateX(-50%);
+  right: 50%;
+}
+
+.robot-brain {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 60px;
+  left: 50%;
+  width: 45px;
+}
+
+.btn-hover > .robot-head-left {
+  margin: 3rem;
+}
+
+.btn-hover > .robot-head-right {
+  margin: 3rem;
 }
