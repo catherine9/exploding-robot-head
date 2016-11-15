@@ -27,6 +27,7 @@ body {
 
 .robot {
   width: 320px;
+  height: 100%;
 }
 
 .robot-head-left {
